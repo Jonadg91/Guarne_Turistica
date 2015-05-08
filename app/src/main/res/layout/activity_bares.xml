@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <LinearLayout
+        style="@style/LinearLayoutStyle"
+        android:layout_weight="2.4">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textAppearance="@style/textViewStyle"
+            android:text="@string/title_activity_bares"
+            android:gravity="center"
+            android:background="@color/black"/>
+
+    </LinearLayout>
+    <LinearLayout
+        style="@style/LinearLayoutStyle"
+        android:background="@drawable/cupulabar">
+        <Button
+            style="@style/ButtonStyle"
+            android:onClick="CupulaBar"/>
+
+    </LinearLayout>
+    <LinearLayout
+        style="@style/LinearLayoutStyle"
+        android:background="@drawable/barrabar">
+        <Button
+            style="@style/ButtonStyle"
+            android:onClick="BarraBar"/>
+
+    </LinearLayout>
+    <LinearLayout
+        style="@style/LinearLayoutStyle"
+        android:background="@drawable/fondamezcal">
+        <Button
+            style="@style/ButtonStyle"
+            android:onClick="FondaMezcal"/>
+
+    </LinearLayout>
+    <LinearLayout
+        style="@style/LinearLayoutStyle"
+        android:background="@drawable/gotchabar">
+        <Button
+            style="@style/ButtonStyle"
+            android:onClick="GotchaBar"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
