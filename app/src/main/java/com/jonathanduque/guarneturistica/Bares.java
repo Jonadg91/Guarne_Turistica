@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
 
 public class Bares extends ActionBarActivity {
@@ -46,7 +47,7 @@ public class Bares extends ActionBarActivity {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Licorera Bar Gotcha");
         builder.setMessage("Licores nacionales e importados.\n" +
-                "\n" +"GOTCHA ofrece la mejor rumba crossover, ubicada en la Zona Rosa");
+                "\n" +"GOTCHA ofrece la mejor rumba crossover, ubicado en la Zona Rosa");
         builder.setPositiveButton("OK",null);
         builder.create();
         builder.show();

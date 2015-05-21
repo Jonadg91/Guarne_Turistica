@@ -13,11 +13,16 @@
     <string name="info" >Distance 24km East of Medellin \n Altitude 2150 meters \n 151km² Area \nPopulation 38.847hab \nTemperature 18 °C</string>
     <string name="title_activity_about_us">About Autor</string>
     <string name="infoautores">Made by Jonathan Duque Gallego\nElectronics Engineering Estudent \n University of Antioquia\n</string>
-    <string name="lacascada">Crystalline water fountain in via the Brizuela, ideal for a good splash of cold water</string>
-    <string name="lamayoria">Nice place in the town of La Honda, for camping and take a dip in cool water </string>
-    <string name="altodelavirgen">Site of tourism and religious pilgrimage, especially the first Saturday of each month</string>
-    <string name="estadio_futbol">Modern sports complex, which has synthetic soccer field, tennis and sport
+    <string name="lacascada">La Cascada \n
+        Crystalline water fountain in via the Brizuela, ideal for a good splash of cold water</string>
+    <string name="lamayoria">La Mayoria \n
+        Nice place in the town of La Honda, for camping and take a dip in cool water </string>
+    <string name="altodelavirgen">Alto de la Virgen \n
+        Site of tourism and religious pilgrimage, especially the first Saturday of each month</string>
+    <string name="estadio_futbol">Unidad Deportiva La Equidad\n
+        Modern sports complex, which has synthetic soccer field, tennis and sport
         shooting rink and road racing.</string>
-    <string name="parqueprincipal">Traditional village park where you will find all kinds of places to enjoy a good time</string>
+    <string name="parqueprincipal">Parque Principal\n
+        Traditional village park where you will find all kinds of places to enjoy a good time</string>
 
 </resources>

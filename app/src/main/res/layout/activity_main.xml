@@ -8,14 +8,6 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_weight="2">
-
-        <Button
-            style="@style/LinearLayoutStyle"
-            android:text="@string/titulo"
-            android:textAppearance="@style/textViewStyle"
-            android:background="@android:color/transparent"
-            android:onClick="OpenAcercaGuarne"/>
-
         </LinearLayout>
     <LinearLayout
         style="@style/LinearLayoutStyle">
@@ -29,38 +21,5 @@
     <LinearLayout
         style="@style/LinearLayoutStyle"
         android:orientation="horizontal">
-        <LinearLayout
-            style="@style/LinearLayoutStyle"
-            android:orientation="vertical">
-            <Button
-                style="@style/LinearLayoutStyle"
-                android:text="@string/title_activity_bares"
-                android:textAppearance="@style/textViewStyle"
-                android:background="@android:color/transparent"
-                android:onClick="OpenBar"/>
-            <Button
-                style="@style/LinearLayoutStyle"
-                android:text="@string/title_activity_hoteles"
-                android:textAppearance="@style/textViewStyle"
-                android:background="@android:color/transparent"
-                android:onClick="OpenHoteles"/>
-        </LinearLayout>
-        <LinearLayout
-            style="@style/LinearLayoutStyle"
-            android:orientation="vertical">
-            <Button
-                style="@style/LinearLayoutStyle"
-                android:text="@string/title_activity_sitios"
-                android:textAppearance="@style/textViewStyle"
-                android:background="@android:color/transparent"
-                android:onClick="OpenSitios"/>
-            <Button
-                style="@style/LinearLayoutStyle"
-                android:text="@string/title_activity_about_us"
-                android:textAppearance="@style/textViewStyle"
-                android:background="@android:color/transparent"
-                android:onClick="OpenAcercaAutor"/>
-
-        </LinearLayout>
         </LinearLayout>
     </LinearLayout>

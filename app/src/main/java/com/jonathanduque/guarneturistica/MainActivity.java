@@ -1,5 +1,8 @@
 package com.jonathanduque.guarneturistica;
 
+import android.app.Fragment;
+import android.app.FragmentManager;
+import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -14,26 +17,6 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-    }
-    public void OpenBar(View view){
-            Intent t = new Intent(this,Bares.class);
-            startActivity(t);
-    }
-    public void OpenHoteles(View view){
-        Intent t = new Intent(this,hoteles.class);
-        startActivity(t);
-    }
-    public void OpenSitios(View view){
-        Intent t = new Intent(this,Sitios.class);
-        startActivity(t);
-    }
-    public void OpenAcercaGuarne(View view){
-        Intent t = new Intent(this,AboutGuarne.class);
-        startActivity(t);
-    }
-    public void OpenAcercaAutor(View view){
-        Intent t = new Intent(this,AboutUs.class);
-        startActivity(t);
     }
 
     @Override
@@ -50,10 +33,31 @@ public class MainActivity extends ActionBarActivity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
+        FragmentManager fragmentManager= getFragmentManager();
+        FragmentTransaction fragmentTransaction= fragmentManager.beginTransaction();
+
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+        if (id==R.id.bares_menu){
+            Bares2 fragment=new Bares2();
+            fragmentTransaction.replace(android.R.id.content, fragment).commit();
         }
+        if (id==R.id.autor_menu){
+            AboutUs fragment=new AboutUs();
+            fragmentTransaction.replace(android.R.id.content,fragment).commit();
+        }
+        if (id==R.id.hoteles_menu){
+            Hoteles2 fragment=new Hoteles2();
+            fragmentTransaction.replace(android.R.id.content, fragment).commit();
+        }
+        if (id==R.id.guarne_menu){
+            AboutGuarne fragment=new AboutGuarne();
+            fragmentTransaction.replace(android.R.id.content, fragment).commit();
+        }
+        if (id==R.id.sitios_menu){
+            Sitios fragment=new Sitios();
+            fragmentTransaction.replace(android.R.id.content, fragment).commit();
+        }
+
 
         return super.onOptionsItemSelected(item);
     }

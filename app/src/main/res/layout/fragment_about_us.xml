@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    android:layout_width="match_parent">
+    android:layout_width="match_parent"
+    tools:context='com.jonathanduque.guarneturistica.about_us'>
     <LinearLayout
         style="@style/LinearLStyle2"
-        android:background="@drawable/guarne">
+        android:background="@drawable/foto">
 
     </LinearLayout>
     <LinearLayout
@@ -14,11 +16,10 @@
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:text="@string/acercadeguarne"
+            android:text="@string/title_activity_about_us"
             android:textAppearance="@style/textViewStyle"
             android:gravity="center"
-            android:textColor="@color/black"
-            android:background="@color/yellowgreen"/>
+            android:background="@color/black"/>
 
     </LinearLayout>
     <LinearLayout
@@ -27,11 +28,10 @@
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:text="@string/info"
+            android:text="@string/infoautores"
             android:textAppearance="@style/textViewStyle"
             android:gravity="center"
-            android:textColor="@color/black"
-            android:background="@color/yellowgreen"/>
+            android:background="@color/black"/>
 
     </LinearLayout>
 </LinearLayout>
